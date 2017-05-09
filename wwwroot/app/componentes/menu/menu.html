@@ -1,0 +1,11 @@
+﻿<div class="jumbotron container">
+    <h1>{{$ctrl.titulo}}</h1>
+
+    <p>{{$ctrl.mensaje}}</p>
+
+    <ul class="nav nav-pills nav-stacked">
+        <li role="presentation" ng-repeat="persona in $ctrl.personas">
+            <a href="#">{{persona.nombre}}</a>
+        </li>
+    </ul>
+</div>
